@@ -1,0 +1,298 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+body{
+    font-family: 'Asap', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/*navbar*/
+/*.header-main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}*/
+.text h2{
+    font-weight: bold;
+    font-style: normal;
+    font-size: 1rem;
+    font-family: 'asap' sans-serif;
+    color: #330000;
+    margin-left: 1.875rem;
+}
+.nav ul{
+    display: flex;
+    gap: 1.5625rem;
+    margin-left: 21.875rem;
+    font-size: 1rem;
+    font-weight: bold;
+    color: #3A3A3A;
+    align-items: center;
+}
+.nav i{
+    font-size: 1.6vw;
+    display: none;
+}
+
+li{
+    list-style: none;
+}
+
+.container{
+    width: 85%;
+    margin: auto;
+}
+.main-banner{
+    margin-top: 6.25rem;
+}
+.flex{
+    display: flex;
+    align-items: center;
+}
+.text-banner h2{
+    color: #3A3A3A;
+    font-feature-settings: "clig" off, "liga" off;
+    font-weight: bold;
+    font-size: 3.25rem;
+    font-style: normal;
+    line-height: 4.375rem;
+}
+.text-banner p{
+    color: #3A3A3A;
+    font-size: 1rem;
+    font-weight: bold;
+    font-feature-settings: "clig"off "liga"off;
+    line-height: normal;
+    font-style: normal;
+}
+.text-banner button {
+    border: 0;
+    padding: .8125rem 1.25rem;
+    border-radius: .625rem;
+    background-color: #E02C6D;
+    font-feature-settings: "clig" off, "liga" off;
+    font-size: 1rem;
+    font-weight: bold;
+    font-style: normal;
+    line-height: normal;
+}
+.text-banner button a{
+    text-decoration: none;
+    color: #FFF;
+}
+.text-banner button a:hover{
+    color: black;
+    animation-delay: 0.2s;
+}
+.text-banner button:hover{
+    background-color: orangered;
+}
+.main-camera{
+    background-image: url(images/Circle\ design.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.main-camera{
+    width: 29.6875rem;
+}
+
+/*Logo*/
+.section{
+    margin-top: 6.1875rem;
+}
+
+.main-section{
+    display: grid;
+    grid-template-columns: repeat(7,1fr);
+    padding: .625rem;
+    align-items: center;
+}
+hr{
+    border: #C0CCDA .1rem solid;
+}
+
+
+.hpc h4{
+    margin-left: 28.125rem;
+    text-transform: uppercase;
+    font-size: 1.125rem;
+    font-style: normal;
+    font-weight: bold;
+    line-height: normal;
+    margin-top: 6.25rem;
+}
+
+.main-card{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 1.25rem;
+}
+
+.card{
+    border-radius: .3125px;
+    background-color: #FFF;
+    box-shadow: 0px 0px 40px 0px rgba(0, 0, 0, 0.15);
+    padding: .625rem;
+}
+.img img{
+    width: 20rem;
+}
+
+.btn button{
+    margin-left: 62.5rem;
+    margin-top: 3.125rem;
+    color: rgba(224, 44, 109, 0.87);
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: Poppins;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: bold;
+    line-height: normal;
+    padding: .8125rem 1.25rem;
+    border: 0;
+}
+
+.main-gear-section{
+    margin-top: 6.25rem;
+}
+
+.main-gear{
+    display: flex;
+    align-items: center;
+}
+
+.text{
+    padding: 0 4.375rem;
+}
+.text h2{
+    color: #0A0826;
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-size: 2.375rem;
+    font-style: normal;
+    font-weight: bold;
+    line-height: 3.75rem;
+}
+.text p{
+    color: #6C6C6C;
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: bold;
+    line-height: 1.75rem;
+}
+.text button{
+    padding: .8125rem 1.25rem;
+    border: 0;
+    background-color: #E02C6D;
+    color: #FFF;
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-size: 1rem;
+    font-weight: bold;
+    font-style: normal;
+    line-height: normal;
+}
+
+.footer{
+    margin-top: 10rem;
+    padding: .625rem;
+    background: #0A0826;
+    text-align: center;
+}
+.footer h4{
+    color: #FFF;
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-size: 1.5rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+.footer p{
+    color: var(--text-gray-300, #D9DBE1);
+    font-feature-settings: 'liga' off;
+    font-size: .875rem;
+    font-style: normal;
+    font-weight: bold;
+    line-height: 1.5rem;
+}
+
+
+
+@media screen and (max-width: 1024px) {
+    .nav ul {
+        margin-left: 1rem;
+    }
+
+    .text h2 {
+        margin-left: 1rem;
+    }
+
+    .container {
+        width: 95%;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    html{
+        font-size: 75%;
+    }
+
+    .nav ul {
+        margin-left: 0;
+        flex-direction: column;
+        display: none;
+        flex-wrap: wrap;
+    }
+
+    /*.nav i{
+        display: block;
+    }*/
+
+    .text h2 {
+        margin-left: 0.5rem;
+        font-size: 1.5rem;
+    }
+
+    .flex{
+        flex-direction: column;
+    }
+
+    .main-camera{
+        width: 75%;
+    }
+    .main-card,
+    .card {
+        width: 100%;
+    }
+
+    .main-section{
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+        width: fit-content;
+    }
+
+    .hpc h4 {
+        margin-left: 1rem;
+    }
+
+    .main-card{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+    }
+
+    .btn button {
+        margin-left: 0;
+    }
+
+    .main-gear{
+        flex-direction: column;
+    }
+
+    .text {
+        padding: 0 1rem;
+    }
+
+    .footer {
+        margin-top: 5rem;
+        width: 100%;
+    }
+}
